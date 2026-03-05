@@ -4,25 +4,41 @@ decorations = "None"
 dynamic_title = true
 
 [font]
-normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
-bold = { family = "JetBrainsMono Nerd Font", style = "Bold" }
-italic = { family = "JetBrainsMono Nerd Font", style = "Italic" }
-bold_italic = { family = "JetBrainsMono Nerd Font", style = "Bold Italic" }
-size = 16.0
+size = 16
 
-[font.offset]
-x = 0
-y = 1 # Adds a tiny bit of extra line spacing for readability
+  [font.normal]
+  family = "JetBrainsMono Nerd Font"
+  style = "Regular"
+
+  [font.bold]
+  family = "JetBrainsMono Nerd Font"
+  style = "Bold"
+
+  [font.italic]
+  family = "JetBrainsMono Nerd Font"
+  style = "Italic"
+
+  [font.bold_italic]
+  family = "JetBrainsMono Nerd Font"
+  style = "Bold Italic"
+
+  [font.offset]
+  x = 0
+  y = 1
 
 [cursor]
-style = { shape = "Block", blinking = "Always" }
 blink_interval = 600
 blink_timeout = 0
+
+  [cursor.style]
+  shape = "Block"
+  blinking = "Always"
 
 [mouse]
 hide_when_typing = true
 
 [general]
 import = [
-"~/.config/alacritty/themes/bearded-theme-arc-blueberry.toml"
+  "~/.config/alacritty/themes/bearded-theme-arc-blueberry.toml"
 ]
+
